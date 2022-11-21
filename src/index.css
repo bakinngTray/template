@@ -313,7 +313,7 @@ body {
 }
 
 .topTracksGroup__list :nth-child(1) {
-    width: 100%;
+    width: 96%;
 }
 
 .topTracksGroup__list :nth-child(2) {
