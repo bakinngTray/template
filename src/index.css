@@ -367,3 +367,67 @@ body {
     height: 58px;
     width: 58px;
 }
+
+.SearchResult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+
+.SearchContent{
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.resultTracks__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 4px 7px 4px;
+}
+
+.resultTracks__list{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.SearchContent__string{
+    height: 100%;
+    width: 60%;
+    font-size: 14px;
+    padding: 4px 7px 4px;
+    margin-top: 7px;
+}
+
+.resultTracks__hr{
+    border-top: 1px solid grey;
+    opacity: .4;
+    margin: 1px 0;
+    width: 100%;
+}
+
+.resultTracks__artist{
+    color: #999;
+    width: 100px;
+    text-align: left;
+}
+
+.resultTracks__time{
+    color: #999;
+}
+
+.resultTracks__title{
+    width: 150px;
+    text-align: left;
+    text-decoration: none;
+}
+
