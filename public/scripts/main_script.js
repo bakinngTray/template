@@ -27,7 +27,11 @@ fetch(`http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=${LA
     })
 
 
-
+/**
+ * добавляет описание к главному списку страницы - самым популярным певцам
+ * @param {HTMLElement} description_after - HTML элемент описания любимого трека
+ * @param {json} best_artist - лучший артист
+ */
 function appendDescriptionMain(description_after, best_artist) {
     const elem_music_full = getHTMLElement('div', 'content_musicFull');
     const elem_music_link = getHTMLElement('div', 'content__musicLink');
@@ -46,8 +50,8 @@ function appendDescriptionMain(description_after, best_artist) {
  .then((json) => {
      json.tracks.track.slice(0, 5).forEach((track) => {
              const elem_item = getHTMLElement('div', 'topTracksGroup__item');
-             const elem_music_artist = getHTMLElement('a', 'content__musicLink');
-             const elem_music_track = getHTMLElement('a', 'content__musicLink');
+             const elem_music_artist = getHTMLElement('a', 'content__musicLink', {'href': ''});
+             const elem_music_track = getHTMLElement('a', 'content__musicLink', {'href': ''});
              elem_music_track.append(track.name);
              elem_music_artist.append(track.artist.name);
 
@@ -81,6 +85,11 @@ function appendDescriptionMain(description_after, best_artist) {
     window.alert(ALERT_MESSAGE);
 })
 
+/**
+ * добавляет описание к любимым песням
+ * @param {HTMLElement} description_after - HTML элемент описания любимого трека
+ * @param {json} track - описание трека
+ */
  function appendDescriptionLoved(description_after, track) {
     const elem_music_full = getHTMLElement('div', 'content_musicFull');
     const elem_artist = getHTMLElement('div', 'content__musicLink');

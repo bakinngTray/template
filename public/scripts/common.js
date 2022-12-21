@@ -3,7 +3,7 @@
  * @param {string} tag - тег
  * @param {string} className - имя класса
  * @param {Map} params - словарь с прочими атрибутами элемента
- * @returns {string} элемент
+ * @returns {HTMLElement} элемент
  */
  function getHTMLElement(tag, className, params) {
     const element = document.createElement(tag);
