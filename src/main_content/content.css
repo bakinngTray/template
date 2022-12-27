@@ -1,0 +1,87 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.content__mainGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.content__title {
+    padding: 20px 40px;
+    color:white;
+    font-size: 24px;
+}
+
+.content__hint {
+    padding: 3px 0px;
+    font-size: 14px;
+    color:#b6c0bf;
+    font-weight: bolder;
+}
+
+.content__clickDescription{
+    font-size: 14px;
+    color:#b6c0bf;
+    font-weight: 400;
+}
+
+.content__popularArtists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content__hr {
+    border-top: 0px solid grey;
+    margin: 5px 0;
+    opacity: .5;
+    width: 90%;
+}
+
+.content__descriptionAfter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f9f9;
+    width: 90%;
+}
+
+.content__listGroup{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.content__topTracksGroup{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lovedGroup__img{
+    border-radius: 50%;
+    position:relative;
+    width: 300px;
+    height: 300px;
+}
+
+.lovedGroup__descriptionAfter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f9f9;
+    width: 90%;
+}

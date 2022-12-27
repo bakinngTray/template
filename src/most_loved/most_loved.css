@@ -1,0 +1,20 @@
+.content__lovedGroup{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_musicFull{
+    display: flex;
+}
+
+.content__musicLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content__musicLink:hover{
+    text-decoration: none;
+    color: red;
+}

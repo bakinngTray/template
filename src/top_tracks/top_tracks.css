@@ -1,0 +1,43 @@
+
+.topTracksGroup__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    width: 150px;
+}
+
+.topTracksGroup__list{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.topTracksGroup__item{
+    background-color: #1e1e1e;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.topTracksGroup__list :nth-child(1) {
+    width: 96%;
+}
+
+.topTracksGroup__list :nth-child(2) {
+    width: 85%;
+}
+
+.topTracksGroup__list :nth-child(3) {
+    width: 73%;
+}
+
+.topTracksGroup__list :nth-child(4) {
+    width: 70%;
+}
+
+.topTracksGroup__list :nth-child(5) {
+    width: 50%;
+}
