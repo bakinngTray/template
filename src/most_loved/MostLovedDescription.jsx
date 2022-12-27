@@ -3,7 +3,7 @@ import './most_loved.css';
 
 /**
  * генерирует описание самого любимого трека
- * @param {object} track - json объект с описанием трека
+ * @param {json} track - json объект с описанием трека
  * @returns HTMLElement
  */
 export default function MostLovedDescription({ track }) {

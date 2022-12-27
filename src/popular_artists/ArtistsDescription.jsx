@@ -3,7 +3,7 @@ import './popular_artists.css';
 
 /**
  * Описание самого популярного артиста
- * @param {object} artist - json объект элемент с артистом 
+ * @param {json} artist - json объект элемент с артистом 
  * @returns HTMLElement
  */
 export default function ArtistsDescription({ artist }) {
