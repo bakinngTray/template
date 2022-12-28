@@ -1,0 +1,74 @@
+.footer {
+    height: min-content;
+    background-color: #090909;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer__otherLinks {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 10px 40px;
+}
+
+.footer__linksOther_title {
+    color: #666;
+}
+
+.footer__otherLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__otherLink:hover {
+    text-decoration: underline;
+}
+
+.footer__li {
+    list-style-type: none;
+}
+
+.footer__hr {
+    border-top: 1px solid grey;
+    opacity: .7;
+    margin: 5px 0;
+    width: 99.7%;
+}
+
+.footer__languages {
+    padding: 10px 40px;
+}
+
+.footer__linkLanguage {
+    color: #666;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.footer__linkCopiright {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer__linkCopiright:hover {
+    text-decoration: underline;
+}
+
+.footer__linkLanguage:hover {
+    text-decoration: underline;
+}
+
+.footer__timeZone {
+    padding: 10px 40px;
+    color: #666;
+}
+
+.footer__timeZone_now {
+    color:white;
+}
+
+.footer__copyright {
+    padding: 10px 40px;
+    color: #666;
+}

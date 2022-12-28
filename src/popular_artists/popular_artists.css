@@ -1,0 +1,38 @@
+.popularArtists__card {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.popularArtists__artist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.popularArtists__name {
+    color:#ccc;
+    font-size: 14px;
+}
+
+
+.content__popularArtists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content__descriptionAfter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f9f9;
+    width: 90%;
+}

@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <script type="module" src="./scripts/main_script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" href="./index.css"/>
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -14,139 +12,8 @@
 
     <title>TM</title>
   </head>
-  <body class="app">
-    <header class="header">
-        <div class="header__MainDiv">
-            <div class="header__group">
-                <image src="img/player_default_album.png"></image>
-                <image src="img/player_controls.png"></image>
-            </div>
-
-            <div>
-                <a href=""><image src="img/logo_static.png"></image></a>
-            </div>
-
-            <div class="header__group">
-                <nav class="header__navigation">
-                    <a href="./search_result.html" class="header__link header__ItemView"><image src="img/search.png"></image></a>
-                    <a href="" class="header__link header__ItemView">Live</a>
-                    <a href="" class="header__link header__ItemView">Music</a>
-                    <a href="" class="header__link header__ItemView">Charts</a>
-                    <a href="" class="header__link header__ItemView">Events</a>
-                    <a href="" class="header__link header__ItemView">Features</a>
-                    <div class="header__ItemView header__link">•</div>
-                    <a class="header__ItemView header__link" href="/">Log In</a>
-                    <a class="header__link header__SignUp" href="/">Sign Up</a>
-                </nav>
-            </div>
-        </div>
-  
-    </header>
-  
-    <div class="content">
-        <div class="content__mainGroup">
-            <h2 class="content__title">Spiking Artists</h2>
-            <h3 class="content__hint">These artists are trending globally on Last.fm right now</h3>
-            <h3 class="content__clickDescription">Click one to explore the artist and their similar artists</h3>
-            <div class="content__popularArtists"></div>
-
-            <hr class="content__hr"></hr>
-            <div class="content__descriptionAfter"></div>
-            <hr class="content__hr"></hr>
-        </div>
-        <div class="content__listGroup">
-                <div class="content__topTracksGroup">
-                        <h2 class="content__title">Spiking Tracks</h2>
-                        <h3 class="content__hint">These artists are trending globally on Last.fm right now</h3>
-                        <div class="topTracksGroup__list">
-                        </div>
-                </div>
-                <div class="content__lovedGroup">
-                        <h2 class="content__title">Today's Most Loved</h2>
-                        <h3 class="content__hint">Tracks loved by the most listeners</h3>
-                        <h3 class="content__clickDescription">Hit play to see if you love it too</h3>
-                        <img class="lovedGroup__img" />
-                        <hr class="content__hr"></hr>
-                        <div class="lovedGroup__descriptionAfter"></div>
-                        <hr class="content__hr"></hr>
-                </div>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="footer__otherLinks">
-            <div>
-                <div class="footer__linksOther_title">COMPANY</div>
-                <ul>
-                    <li class="footer__li"><a href="" class="footer__otherLink">About Last.fm</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Contact Us</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Jobs</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <div class="footer__linksOther_title">HELP</div>
-                <ul>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Track My Music</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Community Support</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Community Guidelines</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Help</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <div class="footer__linksOther_title">GOODIES</div>
-                <ul>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Download Scrobbler</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Developer API</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Free Music Downloads</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Merchandise</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <div class="footer__linksOther_title">ACCOUNT</div>
-                <ul>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Sign Up</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Log In</a></li>
-                    <li class="footer__li"><a href="" class="footer__otherLink">Subscribe</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <div class="footer__linksOther_title">FOLLOW US</div>
-                <ul>
-                    <li class="footer__li"><a href="https://www.facebook.com/" class="footer__otherLink">Facebook</a></li>
-                    <li class="footer__li"><a href="https://twitter.com/" class="footer__otherLink">Twitter</a></li>
-                    <li class="footer__li"><a href="https://www.instagram.com/" class="footer__otherLink">Instagram</a></li>
-                    <li class="footer__li"><a href="https://www.youtube.com/" class="footer__otherLink">YouTube</a></li>
-                </ul>
-            </div>
-        </div>
-        <hr class="footer__hr"></hr>
-
-        <div class="footer__languages">
-            English
-            <a href="" class="footer__linkLanguage">Deutsch</a>
-            <a href="" class="footer__linkLanguage">Español</a>
-            <a href="" class="footer__linkLanguage">Français</a>
-            <a href="" class="footer__linkLanguage">Italiano</a>
-            <a href="" class="footer__linkLanguage">日本語</a>
-            <a href="" class="footer__linkLanguage">Polski</a>
-            <a href="" class="footer__linkLanguage">Português</a>
-            <a href="" class="footer__linkLanguage">Русский</a>
-            <a href="" class="footer__linkLanguage">Svenska</a>      
-            <a href="" class="footer__linkLanguage">Türkçe</a>
-            <a href="" class="footer__linkLanguage">简体中文</a>
-        </div>
-
-        <div class="footer__timeZone">
-            Time zone:
-            <div class="footer__timeZone_now">Europe/Amsterdam</div>
-        </div>
-        <div class="footer__copyright">
-            <a href="" class="footer__linkCopiright"> CBS Interactive</a> © 2022 Last.fm Ltd. All rights reserved <a href="" class="footer__linkCopiright">Terms of Use</a> <a href="" class="footer__linkCopiright">Privacy Policy</a> <a href="" class="footer__linkCopiright">Legal Policies</a> <a href="" class="footer__linkCopiright">Cookies Policy</a> <a href="" class="footer__linkCopiright">Manage Cookies</a> <a href="" class="footer__linkCopiright">Jobs at ViacomCBS</a> <a href="" class="footer__linkCopiright">Last.fm Music</a>
-        </div>
-    </footer>
-</body>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
